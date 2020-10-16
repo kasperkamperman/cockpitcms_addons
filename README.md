@@ -7,6 +7,7 @@ geojsonlocation add-on based on the default location field included in Cockpit.
 Modifications made:
 
 - Leaflet and Algolia Places files are included in the assets folder and not loaded from unpkg (_speeds up loading of admin_).
+- Leaflet and Algolia Places files are loaded on admin initialization, not when the field is shown (_if you have this addon, but don't use it, it still loads the assets_)
 - Data is stored in the GeoJSON format.
 
 Versions:
