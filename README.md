@@ -1,0 +1,1 @@
+# cockpitcms_addons
